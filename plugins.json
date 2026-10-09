@@ -1,0 +1,74 @@
+{
+    "marketplaces":  [
+                         {
+                             "name":  "addy-agent-skills",
+                             "source":  "addyosmani/agent-skills"
+                         },
+                         {
+                             "name":  "caveman",
+                             "source":  "JuliusBrussee/caveman"
+                         },
+                         {
+                             "name":  "claude-plugins-official",
+                             "source":  "anthropics/claude-plugins-official"
+                         },
+                         {
+                             "name":  "hellosverre-mods",
+                             "source":  "hellosverre/claude-skins"
+                         },
+                         {
+                             "name":  "i-have-adhd",
+                             "source":  "ayghri/i-have-adhd"
+                         },
+                         {
+                             "name":  "ponytail",
+                             "source":  "DietrichGebert/ponytail"
+                         }
+                     ],
+    "plugins":  [
+                    {
+                        "id":  "caveman@caveman",
+                        "enabled":  false
+                    },
+                    {
+                        "id":  "claude-code-setup@anthropic-plugin-directory",
+                        "enabled":  false
+                    },
+                    {
+                        "id":  "context7@claude-plugins-official",
+                        "enabled":  true
+                    },
+                    {
+                        "id":  "figma@claude-plugins-official",
+                        "enabled":  true
+                    },
+                    {
+                        "id":  "frontend-design@claude-plugins-official",
+                        "enabled":  true
+                    },
+                    {
+                        "id":  "i-have-adhd@i-have-adhd",
+                        "enabled":  true
+                    },
+                    {
+                        "id":  "mattpocock-skills@claude-plugins-official",
+                        "enabled":  true
+                    },
+                    {
+                        "id":  "ponytail@ponytail",
+                        "enabled":  false
+                    },
+                    {
+                        "id":  "skins@hellosverre-mods",
+                        "enabled":  true
+                    },
+                    {
+                        "id":  "superpowers@claude-plugins-official",
+                        "enabled":  false
+                    },
+                    {
+                        "id":  "typescript-lsp@claude-plugins-official",
+                        "enabled":  true
+                    }
+                ]
+}
